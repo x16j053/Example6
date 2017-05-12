@@ -11,7 +11,7 @@ namespace Example6
         static void Main(string[] args)
         {
             //変数の宣言、初期化
-            int score = 25;             //int型（整数型）
+            int score = (int)0.5;             //int型（整数型）
             double pai = 3.1415;        //double（実数型）
             string name = "TARO";       //string型（文字列型）
 
