@@ -10,6 +10,15 @@ namespace Example6
     {
         static void Main(string[] args)
         {
+            //変数の宣言、初期化
+            int score = 25;             //int型（整数型）
+            double pai = 3.1415;        //double（実数型）
+            string name = "TARO";       //string型（文字列型）
+
+            //変数に格納された値を画面に表示
+            Console.WriteLine("SCORE = {0}", score);
+            Console.WriteLine("AVE = {0}", pai);
+            Console.WriteLine("NAME = {0}", name);
         }
     }
 }
